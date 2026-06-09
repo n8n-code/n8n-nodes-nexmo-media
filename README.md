@@ -53,9 +53,15 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Get list and search media items, Delete a media item, Get retrieve a media item, Put update a media item |
+<details>
+<summary><b>Default</b> (4 operations)</summary>
+
+- Get List and search media items
+- Delete a media item
+- Get Retrieve a media item
+- Put Update a media item
+
+</details>
 
 ---
 

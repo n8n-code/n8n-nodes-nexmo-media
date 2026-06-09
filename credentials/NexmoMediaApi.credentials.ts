@@ -8,7 +8,7 @@ import type {
 export class NexmoMediaApi implements ICredentialType {
 	name = 'N8nDevNexmoMediaApi';
 
-	displayName = 'nexmo-media API';
+	displayName = 'Nexmo Media API';
 
 	icon: Icon = { light: 'file:../nodes/NexmoMedia/nexmo-media.svg', dark: 'file:../nodes/NexmoMedia/nexmo-media.dark.svg' };
 
@@ -22,7 +22,7 @@ export class NexmoMediaApi implements ICredentialType {
 			default: 'https://api.nexmo.com/v3/media',
 			required: true,
 			placeholder: 'https://api.nexmo.com/v3/media',
-			description: 'The base URL of your nexmo-media API server',
+			description: 'The base URL of your Nexmo Media API server',
 		},
 		{
 			displayName: 'API Key',

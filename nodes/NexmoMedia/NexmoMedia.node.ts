@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class NexmoMedia implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'nexmo-media',
+		displayName: 'Nexmo Media',
 		name: 'N8nDevNexmoMedia',
 		icon: { light: 'file:./nexmo-media.svg', dark: 'file:./nexmo-media.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Media API can be used to query, download and delete media items such as audio files for use with other Nexmo APIs',
-		defaults: { name: 'nexmo-media' },
+		defaults: { name: 'Nexmo Media' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
